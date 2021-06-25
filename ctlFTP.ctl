@@ -47,15 +47,6 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = True
 Option Explicit
 
-'-------------------------------------------------------------------------------------------'
-'   This code is developed by Ronald Kas (r.kas@kaycys.com)                                 '
-'   from Kaycys (http://www.kaycys.com).                                                    '
-'                                                                                           '
-'   You may use this for all purposes except from making profit with it.                    '
-'   Check our site regulary for updates.                                                    '
-'-------------------------------------------------------------------------------------------'
-
-
 Private Declare Function InternetGetConnectedState Lib "wininet.dll" (ByRef lpdwFlags As Long, ByVal dwReserved As Long) As Long
 
 Enum EnumBusyWith
